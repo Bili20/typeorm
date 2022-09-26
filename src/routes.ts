@@ -1,7 +1,7 @@
 import { Router} from "express";
-import { DeleteController } from "./controller/DeletePhotoController";
-import { getPhotoController } from "./controller/GetPhotoController";
-import { PostPhotoController } from "./controller/PostPhotoController";
+import { DeleteController } from "./photos/controller/DeletePhotoController";
+import { getPhotoController } from "./photos/controller/GetPhotoController";
+import { PostPhotoController } from "./photos/controller/PostPhotoController";
 
 const router = Router()
 
